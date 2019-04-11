@@ -1,73 +1,89 @@
 @media screen and (min-width: 840px) {
-	header{
-		position: fixed;
-		top: 0;
-		left: 0;
-	}
-	.logo{
-		width: 300px;
-		height: 60px;
-		background-size: contain;
-		margin: 25px 0 15px 0;
-	}
-	.nav-btn{
-		display: none;
-	}
-	.main-nav ul{
-		position: static;
-		width: auto;
-		padding: 100px 0 0 0;
-		background: transparent;
-		display: block;
-	}
-	.main-nav li,
-	.nav-socials li{
-		display: inline-block;
-		margin-right: 29px;
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
 
-	}
-	.main-nav li a,
-	.nav-socials li a{
-		color: #000000;
-		padding: 10px 8px;
-		border: none;
-	}
-	.main-nav li a:hover,
-	.nav-socials li a:hover{
-		color: #e8140e;
-		border-radius: 2px;
-	}
-	.nav-socials .whatsapp a::before{
-		margin-top: 0;
-	}
+    .logo {
+        width: 300px;
+        height: 60px;
+        background-size: contain;
+        margin: 25px 0 15px 0;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .main-wrapper {
+        padding: 190px 200px 400px 200px;
+    }
+
+    .main-nav ul {
+        position: static;
+        width: auto;
+        padding: 100px 0 0 0;
+        background: transparent;
+        display: block;
+    }
+
+    .main-nav li,
+    .nav-socials li {
+        display: inline-block;
+        margin-right: 29px;
+
+    }
+
+    .main-nav li a,
+    .nav-socials li a {
+        color: #000000;
+        padding: 10px 8px;
+        border: none;
+    }
+
+    .main-nav li a:hover,
+    .nav-socials li a:hover {
+        color: #e8140e;
+        border-radius: 2px;
+    }
+
+    .nav-socials .whatsapp a::before {
+        margin-top: 0;
+    }
+
+    video {
+        width: 700px;
+        height: 500px;
+    }
 }
-@media screen and (min-width: 960px) {
-	.logo{
-		background-size: contain;
-		margin: 22px 0;
-	}
-	.main-nav,
-	.nav-socials{
-		position: relative;
-		float: left;
-	}
-	.main-nav ul{
-		float: right;
-		padding: 30px 0 0 0;
-	}
-	.nav-socials ul{
-		float: right;
-		padding: 15px 0 0 0;
-	}
-	.main-nav li,
-	.nav-socials li{
-		margin-right: 6px;
-	}
-	.main-nav li a,
-	.nav-socials li a{
-		padding: 8px 12px;
-	}
 
+@media screen and (min-width: 960px) {
+    .logo {
+        background-size: contain;
+        margin: 22px 0;
+    }
+
+    .main-nav,
+    .nav-socials {
+        position: relative;
+        float: left;
+    }
+
+    .main-nav ul {
+        float: right;
+        padding: 30px 0 0 0;
+    }
+
+    .nav-socials ul {
+        float: right;
+        padding: 15px 0 0 0;
+    }
+
+    .main-nav li,
+    .nav-socials li {
+        margin-right: 6px;
+    }
 }
 
 
