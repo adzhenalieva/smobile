@@ -3,9 +3,18 @@
         width: 500px;
         height: 300px;
     }
-    .item{
-        width: 35%;
+    .advantages-div{
+        background: url("../images/smartfone.png") 50% 74% no-repeat;
     }
+    .item{
+        width: 30%;
+        text-align: justify;
+    }
+    .main-wrapper {
+        padding: 0 0 150px;
+        background: url("../images/main-pic.jpg") 50% no-repeat;
+    }
+
 }
 
 @media screen and (min-width: 840px) {
@@ -14,7 +23,6 @@
         top: 0;
         left: 0;
     }
-
     .logo {
         width: 300px;
         height: 60px;
@@ -61,18 +69,19 @@
     .nav-socials .whatsapp a::before {
         margin-top: 0;
     }
-    .order-wrap {
+    .order-wrap,
+    .order-wrap-2{
         background-size: cover;
         padding: 50px 0;
         background-position: 50% 0;
+
     }
     video {
         width: 700px;
         height: 400px;
     }
-    .item{
-        width: 35%;
-    }
+
+
 }
 
 @media screen and (min-width: 960px) {
@@ -101,6 +110,7 @@
     .nav-socials li {
         margin-right: 6px;
     }
+
 }
 
 

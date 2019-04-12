@@ -17,9 +17,9 @@ body {
 }
 
 .main-wrapper {
-    background: url("../images/main-pic.jpg") 50% no-repeat;
+    background: url("../images/main-pic-mobile.png")  0 100% no-repeat;
     background-size: cover;
-    padding: 0px 0 30px 0;
+    padding: 2px 0 125px 0;
     margin-bottom: 50px;
     text-align: center;
     -webkit-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
@@ -214,6 +214,7 @@ video {
     background-size: cover;
     padding: 50px 0;
     margin-bottom: 50px;
+    text-align: center;
 }
 .order-div{
     padding: 0 20px;
@@ -230,36 +231,81 @@ video {
 }
 .advantages-div{
     padding: 20px 10px;
-    background: url("../images/smartfone.png") 50% 0 no-repeat;
     background-size: auto;
+    margin-bottom: 50px;
 }
 .advantages-div .main-title{
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-align: center;
 }
 
 .item-title{
-    padding-top: 70px;
+    padding-top: 75px;
     font-size: 14px;
     font-weight: 400;
     position: relative;
 }
+.items{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 .item{
-    display: inline-block;
     margin: 10px 50px 30px;
-    text-align: justify;
+    text-align: center;
     position: relative;
 }
-.item-title::before{
+.icon-1::before{
     content: "";
     background: url("../images/hammer.svg") no-repeat;
     background-size: contain;
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     position: absolute;
     top: 0;
-    left: 50%;
+    left: 40%;
 }
+.icon-2::before{
+    content: "";
+    background: url("../images/tap.svg") no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.icon-3::before{
+    content: "";
+    background: url("../images/fingerprint.svg") no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.icon-4::before{
+    content: "";
+    background: url("../images/smartphone.svg") no-repeat;
+    background-size: contain;
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+}
+.order-wrap-2{
+    background-image: url("../images/order-2-background.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+
 footer {
     background: #202242;
 }
