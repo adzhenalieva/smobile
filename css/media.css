@@ -1,20 +1,51 @@
 @media screen and (min-width: 680px) {
+
     video {
         width: 500px;
         height: 300px;
     }
-    .advantages-div{
+
+    .advantages-div {
         background: url("../images/smartfone.png") 50% 74% no-repeat;
     }
-    .item{
+
+    .item {
         width: 30%;
         text-align: justify;
     }
+
     .main-wrapper {
         padding: 0 0 150px;
         background: url("../images/main-pic.jpg") 50% no-repeat;
     }
 
+    .image,
+    .big-order {
+        width: 40%;
+        margin: 15px;
+    }
+
+    .images img {
+        height: 200px;
+    }
+
+    .video-2-wrap .text {
+        width: 45%;
+    }
+
+    .video-2-wrap {
+        background: url("../images/video-2-back.png") no-repeat 50%;
+        background-size: cover;
+        padding: 30px 20px 10px;
+        -webkit-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
+        -moz-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
+        box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
+        margin-bottom: 50px;
+    }
+
+    .video-2-wrap .video-div {
+        padding: 80px 0;
+    }
 }
 
 @media screen and (min-width: 840px) {
@@ -23,6 +54,7 @@
         top: 0;
         left: 0;
     }
+
     .logo {
         width: 300px;
         height: 60px;
@@ -69,18 +101,14 @@
     .nav-socials .whatsapp a::before {
         margin-top: 0;
     }
+
     .order-wrap,
-    .order-wrap-2{
+    .order-wrap-2 {
         background-size: cover;
         padding: 50px 0;
         background-position: 50% 0;
 
     }
-    video {
-        width: 700px;
-        height: 400px;
-    }
-
 
 }
 

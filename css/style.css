@@ -17,7 +17,7 @@ body {
 }
 
 .main-wrapper {
-    background: url("../images/main-pic-mobile.png")  0 100% no-repeat;
+    background: url("../images/main-pic-mobile.png") 0 100% no-repeat;
     background-size: cover;
     padding: 2px 0 125px 0;
     margin-bottom: 50px;
@@ -216,46 +216,62 @@ video {
     margin-bottom: 50px;
     text-align: center;
 }
-.order-div{
+
+.order-div {
     padding: 0 20px;
 }
-.order-title{
+
+.order-title {
     font-size: 18px;
     font-weight: 500;
 }
-.order-subtitle{
+
+.order-subtitle {
     font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 25px;
 }
-.order-small-text{
+
+.order-small-text {
     font-size: 10px;
 }
-.advantages-div{
+
+.advantages-div {
     padding: 20px 10px;
     background-size: auto;
     margin-bottom: 50px;
 }
-.advantages-div .main-title{
+
+.advantages-div .main-title {
     margin-bottom: 15px;
     text-align: center;
 }
 
-.item-title{
+.item-title {
     padding-top: 75px;
     font-size: 14px;
     font-weight: 400;
     position: relative;
 }
-.items{
+
+.items {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.item{
+
+.item {
     margin: 10px 50px 30px;
     text-align: center;
     position: relative;
 }
-.icon-1::before{
+
+.text {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.icon-1::before {
     content: "";
     background: url("../images/hammer.svg") no-repeat;
     background-size: contain;
@@ -265,7 +281,8 @@ video {
     top: 0;
     left: 40%;
 }
-.icon-2::before{
+
+.icon-2::before {
     content: "";
     background: url("../images/tap.svg") no-repeat;
     background-size: contain;
@@ -275,7 +292,8 @@ video {
     top: 0;
     left: 40%;
 }
-.icon-3::before{
+
+.icon-3::before {
     content: "";
     background: url("../images/fingerprint.svg") no-repeat;
     background-size: contain;
@@ -285,7 +303,8 @@ video {
     top: 0;
     left: 40%;
 }
-.icon-4::before{
+
+.icon-4::before {
     content: "";
     background: url("../images/smartphone.svg") no-repeat;
     background-size: contain;
@@ -295,7 +314,8 @@ video {
     top: 0;
     left: 40%;
 }
-.order-wrap-2{
+
+.order-wrap-2 {
     background-image: url("../images/order-2-background.png");
     background-repeat: no-repeat;
     background-position: 0 0;
@@ -305,7 +325,79 @@ video {
     text-align: center;
 }
 
+.big-order-wrap {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+.image,
+.big-order{
+    width: 80%;
+    margin: 20px 15px;
+}
+.images{
+    display: flex;
+    justify-content: space-between;
+}
+.images img{
+    width: 30%;
+    height: 150px;
+}
+select {
+    height: 40px;
 
+    padding: 0 25px 0 5px;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    background-image: url("../images/down-arrow.png");
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -ms-appearance: none;
+    appearance: none !important;
+    margin-bottom: 30px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+.form-row {
+    position: relative;
+    display: inline-block;
+    margin-right: 25px;
+}
+
+.input-number-label {
+    width: 15px;
+    height: 15px;
+    background: url("../images/phone-icon.png") no-repeat 100% 50%;
+    background-size: contain;
+    position: absolute;
+    top: 13px;
+    left: 10px;
+}
+
+.input-number {
+    font-size: 10px;
+    border: 1px solid #e8140e;
+    padding: 14px 30px;
+    margin-bottom: 50px;
+}
+.video-2-wrap{
+    background: url("../images/video-2-back-mob.png") no-repeat 50%;
+    background-size: cover;
+    padding: 30px 15px 0;
+    margin-bottom: 50px;
+}
+.video-2-wrap .video-div{
+    margin-bottom: 10px;
+    padding: 410px 0 80px;
+}
 footer {
     background: #202242;
 }
