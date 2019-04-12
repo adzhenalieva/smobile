@@ -4,7 +4,7 @@ body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: 12px;
     min-width: 320px;
     margin: 0;
@@ -20,6 +20,7 @@ body {
     background: url("../images/main-pic.jpg") 50% no-repeat;
     background-size: cover;
     padding: 0px 0 30px 0;
+    margin-bottom: 50px;
     text-align: center;
     -webkit-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
     -moz-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
@@ -167,7 +168,6 @@ body {
     font-weight: 400;
     padding: 0 0 50px 0;
     font-size: 23px;
-    text-transform: uppercase;
 }
 
 .main-subtitle {
@@ -208,9 +208,12 @@ video {
 }
 
 .order-wrap {
-    background: url("../images/background-phone.png") no-repeat 0 0;
-    background-size: contain;
-    padding: 50px 0 150px;
+    background-image: url("../images/background-phone.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    padding: 50px 0;
+    margin-bottom: 50px;
 }
 .order-div{
     padding: 0 20px;
@@ -227,8 +230,35 @@ video {
 }
 .advantages-div{
     padding: 20px 10px;
-    background: url("../images/favicon.ico") 50% no-repeat;
+    background: url("../images/smartfone.png") 50% 0 no-repeat;
     background-size: auto;
+}
+.advantages-div .main-title{
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.item-title{
+    padding-top: 70px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+}
+.item{
+    display: inline-block;
+    margin: 10px 50px 30px;
+    text-align: justify;
+    position: relative;
+}
+.item-title::before{
+    content: "";
+    background: url("../images/hammer.svg") no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 50%;
 }
 footer {
     background: #202242;

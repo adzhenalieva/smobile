@@ -1,3 +1,13 @@
+@media screen and (min-width: 680px) {
+    video {
+        width: 500px;
+        height: 300px;
+    }
+    .item{
+        width: 35%;
+    }
+}
+
 @media screen and (min-width: 840px) {
     header {
         position: fixed;
@@ -51,10 +61,17 @@
     .nav-socials .whatsapp a::before {
         margin-top: 0;
     }
-
+    .order-wrap {
+        background-size: cover;
+        padding: 50px 0;
+        background-position: 50% 0;
+    }
     video {
         width: 700px;
-        height: 500px;
+        height: 400px;
+    }
+    .item{
+        width: 35%;
     }
 }
 
