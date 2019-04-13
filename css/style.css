@@ -4,7 +4,7 @@ body {
     color: #000000;
     font-family: 'Montserrat', sans-serif;
     background: #ffffff;
-    line-height: 1.6;
+    line-height: 2;
     font-size: 12px;
     min-width: 320px;
     margin: 0;
@@ -22,9 +22,6 @@ body {
     padding: 2px 0 125px 0;
     margin-bottom: 50px;
     text-align: center;
-    -webkit-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
-    -moz-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
-    box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
 }
 
 .logo {
@@ -331,19 +328,25 @@ video {
     flex-wrap: wrap;
     margin-bottom: 50px;
 }
+
 .image,
-.big-order{
+.big-order,
+.instruction-image,
+.instruction-text {
     width: 80%;
-    margin: 20px 15px;
+    margin: 20px auto;
 }
-.images{
+
+.images {
     display: flex;
     justify-content: space-between;
 }
-.images img{
+
+.images img {
     width: 30%;
     height: 150px;
 }
+
 select {
     height: 40px;
 
@@ -388,20 +391,167 @@ select::-ms-expand {
     padding: 14px 30px;
     margin-bottom: 50px;
 }
-.video-2-wrap{
+
+.video-2-wrap {
     background: url("../images/video-2-back-mob.png") no-repeat 50%;
     background-size: cover;
-    padding: 30px 15px 0;
-    margin-bottom: 50px;
+    padding: 30px 0 0;
+    margin: 0 0 50px;
 }
-.video-2-wrap .video-div{
+.video-2-text{
+    padding: 0 10px;
+}
+.video-2-wrap .video-div {
     margin-bottom: 10px;
     padding: 410px 0 80px;
 }
-footer {
-    background: #202242;
+
+.guarantee {
+    padding-left: 35px;
+    position: relative;
+}
+
+.guarantee::before {
+    content: "";
+    background: url("../images/guarantee.svg") no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.instruction-wrap {
+    background: url("../images/instruction-background.png") 50% no-repeat;
+    background-size: cover;
+    padding: 25px 0;
+    margin-bottom: 30px;
+}
+
+.instruction-div {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.form-div {
+    background: #f4f4f4;
+    width: 90%;
+    margin: 10px auto 50px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+.form-div input,
+.form-div textarea {
+    display: block;
+    margin: 20px auto;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+.form-div .checkbox {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.client-data {
+    border: none;
+    border-bottom: 1px solid #494949;
+    width: 80%;
+    padding: 10px 0 5px;
+    background: #f4f4f4;
+}
+
+.dop-info {
+    border: none;
+    background: #eeeeee;
+    width: 80%;
+}
+
+.info-wrap {
+    background: #eaeaea;
+    padding: 35px 0;
+}
+
+.info-item {
+    padding: 120px 0 0;
+    position: relative;
+    text-align: center;
+}
+.info-item::before{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 10%;
+    left: 36%;
+}
+.info-item .main-title {
+    padding: 10px 0;
+    margin: 10px 0;
+}
+
+.info-item-1::before {
+    content: "";
+    background: url("../images/shipped.svg") no-repeat;
+    background-size: contain;
+}
+
+.info-item-2::before {
+    content: "";
+    background: url("../images/pay.svg") no-repeat;
+    background-size: contain;
+}
+
+.info-item-3::before {
+    content: "";
+    background: url("../images/guarantee.svg") no-repeat;
+    background-size: contain;
+}
+footer{
+    padding: 20px 0;
 }
 
 .footer {
-
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+}
+.footer-text{
+    padding: 0 15px;
+}
+.footer-mail{
+    text-decoration: none;
+    color: #000000;
+}
+.footer-button{
+    margin: 20px auto;
+}
+.footer-address,
+.footer-mail{
+    position: relative;
+    padding-left: 30px;
+}
+.footer-address::before,
+.footer-mail::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+}
+.footer-address::before{
+    content: "";
+    background: url("../images/place.svg") no-repeat;
+    background-size: contain;
+}
+.footer-mail::before{
+    content: "";
+    background: url("../images/mail.svg") no-repeat;
+    background-size: contain;
+}
+.footer .nav-socials .whatsapp a::before{
+    margin-top: 0;
 }
