@@ -151,7 +151,6 @@
     .nav-socials li {
         display: inline-block;
         margin-right: 29px;
-
     }
 
     .main-nav li a,
@@ -176,7 +175,6 @@
         background-size: cover;
         padding: 50px 0;
         background-position: 50% 0;
-
     }
 
 }
@@ -189,7 +187,6 @@
 
     .main-nav,
     .nav-socials {
-        position: relative;
         float: left;
     }
 
