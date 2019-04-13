@@ -12,7 +12,7 @@ body {
 
 .container {
     min-width: 320px;
-    max-width: 960px;
+    max-width: 1330px;
     margin: 0 auto;
 }
 
@@ -137,14 +137,17 @@ body {
     padding: 10px 8px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
-.main-nav li a:hover{
+
+.main-nav li a:hover {
     background: #eaeaea;
 }
+
 .nav-socials li a {
     border: none;
     display: inline-block;
 
 }
+
 .main-nav li:last-child a {
     border: none;
 }
@@ -524,6 +527,16 @@ select::-ms-expand {
     content: "";
     background: url("../images/guarantee.svg") no-repeat;
     background-size: contain;
+}
+
+.thank-you.is-active,
+.quick-order.is-active {
+    display: block;
+}
+
+.thank-you.not-active,
+.quick-order.not-active {
+    display: none;
 }
 
 footer {

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Smobile</title>
@@ -18,11 +18,11 @@
         <button id="nav-btn" class="nav-btn not-active" type="button"><i></i></button>
         <nav class="main-nav">
             <ul>
-                <li><a href="#">Плоттер для нарезки пленки</a></li>
-                <li><a href="#">Гидрогелевые плёнки ROCK</a></li>
-                <li><a href="#">Доставка и оплата</a></li>
-                <li><a href="#">Гарантия</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="#plotter">Плоттер для нарезки пленки</a></li>
+                <li><a href="#video-div">Гидрогелевые плёнки ROCK</a></li>
+                <li><a href="#dostavka">Доставка и оплата</a></li>
+                <li><a href="#garant">Гарантия</a></li>
+                <li><a href="#contacts">Контакты</a></li>
             </ul>
         </nav>
 
@@ -38,7 +38,7 @@
     <div class="container">
         <h1 class="main-title">Плоттер и противоударная гидрогелевая плёнка</h1>
         <p class="main-subtitle">на любой смартфон и смарт часы</p>
-        <button class="main-button">Заказать</button>
+        <button id="main-button" type="button" class="main-button not-active">Заказать</button>
         <p class="guarantee-text">
             Гарантия на аппарат <br>
             составляет 1 год</p>
@@ -48,7 +48,7 @@
 
 <!--video div start-->
 <div class="container">
-    <div class="video-div">
+    <div class="video-div" id="video-div">
         <h2 class="main-title">Гидрогелевая противоударная плёнка</h2>
         <p class="video-text">Это совершенно новый уровень защиты вашего телефона, планшета. Гаджету с пленкой не
             страшны
@@ -174,7 +174,7 @@
                     class="text">от 100 руб., минимальная партия поставки 50 шт.</span></p>
             <p class="order-subtitle">Производитель: <span class="text">Rock</span></p>
             <p class="text">Гарантия качество завода производителя</p>
-            <form action="">
+            <form>
                 <p class="order-subtitle">Количество:
                     <label for="select"></label><select id="select">
                         <option value="" selected>50 шт.</option>
@@ -183,8 +183,7 @@
                     </select></p>
                 <div class="form-row">
                     <label for="input-number" class="input-number-label"> </label>
-                    <input type="number" class="input-number" id="input-number" placeholder="+7(____)__-__-__"
-                           autofocus>
+                    <input type="number" class="input-number" id="input-number" placeholder="+7(____)__-__-__">
                 </div>
                 <button class="main-button">Заказ в 1 клик</button>
             </form>
@@ -194,7 +193,7 @@
 <!--big-order-div end-->
 
 <!--video-div-2 begin-->
-<div class="video-2-wrap">
+<div class="video-2-wrap" id="plotter">
     <div class="container">
         <div class="video-2-text">
             <h2 class="main-title">Плоттер ROCK UZIEN для нарезки гидрогелевой
@@ -250,7 +249,7 @@
                     class="text">70 000 руб., минимальная партия поставки 1 шт.</span></p>
             <p class="order-subtitle">Производитель: <span class="text">Rock</span></p>
             <p class="text guarantee">Гарантия 1 год</p>
-            <form action="">
+            <form>
                 <p class="order-subtitle">Количество:
                     <label for="select-2"></label><select id="select-2">
                         <option value="" selected>1 шт.</option>
@@ -294,12 +293,12 @@
 <!--form-div begin-->
 <div class="container">
     <div class="form-div">
-        <form action="">
+        <form>
             <h3 class="order-subtitle">Для того, что бы оставить заявку на оптовую поставку, заполните форму. </h3>
             <input class="client-data" type="text" placeholder="Ваше имя">
             <input class="client-data" type="text" placeholder="Телефон">
             <label for="dop-info">Дополнительная информация</label>
-            <textarea class="dop-info" name="" id="dop-info" cols="30" rows="10"></textarea>
+            <textarea class="dop-info" id="dop-info" cols="30" rows="10"></textarea>
             <button class="main-button">Отправить</button>
             <p><input class="checkbox" type="checkbox" id="permission"><label for="permission">Согласие на обработку
                 персональных данных</label></p>
@@ -310,7 +309,7 @@
 <!--form-div end-->
 
 <!--info-div begin-->
-<div class="info-wrap">
+<div class="info-wrap" id="dostavka">
     <div class="container">
         <div class="info-item info-item-1">
             <h3 class="main-title">Доставка</h3>
@@ -325,7 +324,7 @@
             <p class="text">Мы работаем без предоплаты. Оплата только по факту, либо курьеру на руки,
                 либо в почтовом отделении при получении товара.</p>
         </div>
-        <div class="info-item info-item-3">
+        <div class="info-item info-item-3" id="garant">
             <h3 class="main-title">Гарантия</h3>
             <p class="text">В случае, когда договором купли-продажи предусмотрено предоставление
                 продавцом гарантии качества товара, продавец обязан передать покупателю
@@ -336,13 +335,38 @@
     </div>
 </div>
 <!--info-div end-->
+
+<!--modal-quick-order begin-->
+<div class="quick-order not-active">
+    <div class="form-div">
+        <form>
+            <h3 class="order-subtitle">Сделать моментальный заказ</h3>
+            <input class="client-data" type="text" placeholder="Ваше имя">
+            <input class="client-data" type="text" placeholder="Телефон">
+            <button class="main-button">Отправить</button>
+        </form>
+    </div>
+</div>
+<!--modal-quick-order end-->
+<!--modal-thanks- begin-->
+<div class="thank-you not-active">
+    <div class="form-div">
+        <form>
+            <h3 class="order-subtitle">Спасибо за Ваш заказ!</h3>
+            <p>Мы с Вами свяжемся в ближайшее время</p>
+            <button class="main-button">Oк</button>
+        </form>
+    </div>
+</div>
+<!--modal-thanks end-->
+
 <footer>
     <div class="container">
-        <div class="footer">
+        <div class="footer" id="contacts">
             <div class="footer-text">
                 <p class="text footer-address">г.Москва ул. Тихорецкий бульвар д.1 ТЦ "Москва" вход 7 ряд "П" секция
                     №28</p>
-                <a href="" class="footer-mail order-subtitle">info@s-mobile.shop</a>
+                <a href="#" class="footer-mail order-subtitle">info@s-mobile.shop</a>
                 <p class="order-small-text">2019/Все права защищены</p>
             </div>
             <div class="footer-button">
@@ -358,7 +382,6 @@
             </nav>
         </div>
     </div>
-
 </footer>
 
 <script src="js/jquery-3.3.1.min.js"></script>
