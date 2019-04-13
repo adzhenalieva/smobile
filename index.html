@@ -38,7 +38,7 @@
     <div class="container">
         <h1 class="main-title">Плоттер и противоударная гидрогелевая плёнка</h1>
         <p class="main-subtitle">на любой смартфон и смарт часы</p>
-        <button id="main-button" type="button" class="main-button not-active">Заказать</button>
+        <button class="main-button">Заказать</button>
         <p class="guarantee-text">
             Гарантия на аппарат <br>
             составляет 1 год</p>
@@ -336,30 +336,6 @@
 </div>
 <!--info-div end-->
 
-<!--modal-quick-order begin-->
-<div class="quick-order not-active">
-    <div class="form-div">
-        <form>
-            <h3 class="order-subtitle">Сделать моментальный заказ</h3>
-            <input class="client-data" type="text" placeholder="Ваше имя">
-            <input class="client-data" type="text" placeholder="Телефон">
-            <button class="main-button">Отправить</button>
-        </form>
-    </div>
-</div>
-<!--modal-quick-order end-->
-<!--modal-thanks- begin-->
-<div class="thank-you not-active">
-    <div class="form-div">
-        <form>
-            <h3 class="order-subtitle">Спасибо за Ваш заказ!</h3>
-            <p>Мы с Вами свяжемся в ближайшее время</p>
-            <button class="main-button">Oк</button>
-        </form>
-    </div>
-</div>
-<!--modal-thanks end-->
-
 <footer>
     <div class="container">
         <div class="footer" id="contacts">
@@ -384,6 +360,29 @@
     </div>
 </footer>
 
+<!--modal-quick-order begin-->
+<div id="quick-order">
+    <div class="form-div">
+        <form>
+            <h3 class="order-subtitle">Сделать моментальный заказ</h3>
+            <input class="client-data" type="text" placeholder="Ваше имя">
+            <input class="client-data" type="text" placeholder="Телефон">
+            <button class="main-button">Отправить</button>
+        </form>
+    </div>
+</div>
+<!--modal-quick-order end-->
+<!--modal-thanks- begin-->
+<div id="thank-you">
+    <div class="form-div">
+        <form>
+            <h3 class="order-subtitle">Спасибо за Ваш заказ!</h3>
+            <p>Мы с Вами свяжемся в ближайшее время</p>
+            <button class="main-button">Oк</button>
+        </form>
+    </div>
+</div>
+<!--modal-thanks end-->
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/core.js"></script>
 </body>

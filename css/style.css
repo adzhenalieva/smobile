@@ -529,16 +529,6 @@ select::-ms-expand {
     background-size: contain;
 }
 
-.thank-you.is-active,
-.quick-order.is-active {
-    display: block;
-}
-
-.thank-you.not-active,
-.quick-order.not-active {
-    display: none;
-}
-
 footer {
     padding: 20px 0;
 }

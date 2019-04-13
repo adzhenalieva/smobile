@@ -8,15 +8,6 @@ $(document).ready(function () {
         }
     });
 
-
-    $('#main-button').click(function () {
-        $('.quick-order').addClass('is-active').removeClass('not-active');
-        if ($(this).hasClass('not-active')) {
-            $(this).addClass('is-active').removeClass('not-active');
-        } else {
-            $('.is-active').addClass('not-active').removeClass('is-active');
-        }
-    });
 });
 
 
