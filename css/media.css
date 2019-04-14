@@ -101,6 +101,12 @@
     .footer .footer-button {
         margin-top: 55px;
     }
+    .modal .form-div{
+        padding: 20px ;
+    }
+    .overlay .modal {
+        padding: 20px 80px;
+    }
 }
 
 @media screen and (min-width: 840px) {

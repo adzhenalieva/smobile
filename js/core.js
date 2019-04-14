@@ -7,12 +7,6 @@ $(document).ready(function () {
             $('.is-active').addClass('not-active').removeClass('is-active');
         }
     });
-    var initialText = $('.editable').val();
-    $('.editOption').val(initialText);
-
-    $(".js-example-tags").select2({
-        tags: true
-    });
 });
 
 
