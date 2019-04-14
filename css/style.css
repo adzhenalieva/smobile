@@ -610,3 +610,7 @@ footer {
 .footer .nav-socials .whatsapp a::before {
     margin-top: 0;
 }
+.hide{
+    display: none;
+}
+

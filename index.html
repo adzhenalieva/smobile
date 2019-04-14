@@ -176,12 +176,13 @@
                 <p class="order-subtitle">Количество:
                     <label for="select"></label><select id="select">
                         <option value="" selected>50 шт.</option>
-                        <option value="">100 шт.</option>
-                        <option value="">200 шт.</option>
+                        <option value=""></option>
+
                     </select></p>
+
                 <div class="form-row">
                     <label for="input-number" class="input-number-label"> </label>
-                    <input type="number" class="input-number" id="input-number" placeholder="+7(____)__-__-__">
+                    <input type="text" class="input-number" id="input-number" placeholder="+7(____)__-__-__">
                 </div>
                 <button class="main-button">Заказ в 1 клик</button>
             </form>
@@ -249,12 +250,12 @@
                 <p class="order-subtitle">Количество:
                     <label for="select-2"></label><select id="select-2">
                         <option value="" selected>1 шт.</option>
-                        <option value="">5 шт.</option>
-                        <option value="">10 шт.</option>
+                        <option value=""></option>
+
                     </select></p>
                 <div class="form-row">
                     <label for="input-number-2" class="input-number-label"> </label>
-                    <input type="number" class="input-number" id="input-number-2" placeholder="+7(____)__-__-__"
+                    <input type="text" class="input-number" id="input-number-2" placeholder="+7(____)__-__-__"
                            autofocus>
                 </div>
                 <button class="main-button">Заказ в 1 клик</button>
@@ -298,14 +299,14 @@
             <button class="main-button">Отправить</button>
             <p><input class="checkbox" type="checkbox" id="permission"><label for="permission">Согласие на обработку
                 персональных данных</label></p>
-
+            <p id="dostavka"></p>
         </form>
     </div>
 </div>
 <!--form-div end-->
 
 <!--info-div begin-->
-<div class="info-wrap" id="dostavka">
+<div class="info-wrap" >
     <div class="container">
         <div class="info-item info-item-1">
             <h3 class="main-title">Доставка</h3>
@@ -319,9 +320,10 @@
             <h3 class="main-title">Оплата</h3>
             <p class="text">Мы работаем без предоплаты. Оплата только по факту, либо курьеру на руки,
                 либо в почтовом отделении при получении товара.</p>
+            <p id="garant"></p>
         </div>
-        <div class="info-item info-item-3" id="garant">
-            <h3 class="main-title">Гарантия</h3>
+        <div class="info-item info-item-3" >
+            <h3 class="main-title" >Гарантия</h3>
             <p class="text">В случае, когда договором купли-продажи предусмотрено предоставление
                 продавцом гарантии качества товара, продавец обязан передать покупателю
                 товар, который должен соответствовать требованиям, предусмотренным
@@ -357,7 +359,7 @@
 </footer>
 
 <!--modal-quick-order begin-->
-<div id="quick-order">
+<div id="quick-order" class="hide">
     <div class="form-div">
         <form>
             <h3 class="order-subtitle">Сделать моментальный заказ</h3>
@@ -369,7 +371,7 @@
 </div>
 <!--modal-quick-order end-->
 <!--modal-thanks- begin-->
-<div id="thank-you">
+<div id="thank-you" class="hide">
     <div class="form-div">
         <form>
             <h3 class="order-subtitle">Спасибо за Ваш заказ!</h3>
