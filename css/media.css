@@ -16,7 +16,12 @@
     .main .main-title{
         padding: 0 0 15px 0;;
     }
+    .main-subtitle{
+        margin-left: 0px;
+    }
     .guarantee-text {
+        padding: 10px;
+        width: 200px;
         bottom: 7%;
         left: 1%;
     }
@@ -108,14 +113,7 @@
 }
 
 @media screen and (min-width: 840px) {
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        background: #feffff;
-        width: 100%;
-        z-index: 15;
-    }
+
 
     .form-div {
         width: 70%;
@@ -135,15 +133,7 @@
         margin: 25px 0 15px 0;
     }
 
-    .nav-btn {
-        display: none;
-    }
 
-    .main-wrapper {
-        padding: 150px 200px 220px 200px;
-        -webkit-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
-        box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
-    }
 
     .main-nav ul {
         position: static;
@@ -185,6 +175,22 @@
 }
 
 @media screen and (min-width: 960px) {
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #feffff;
+        width: 100%;
+        z-index: 15;
+    }
+    .main-wrapper {
+    padding: 150px 200px 220px 200px;
+    -webkit-box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
+    box-shadow: 0px 11px 8px 0px rgba(209, 209, 209, 1);
+    }
+    .nav-btn {
+        display: none;
+    }
     .logo {
         background-size: contain;
         margin: 22px 0;
