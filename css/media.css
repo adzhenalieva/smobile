@@ -1,5 +1,4 @@
 @media screen and (min-width: 680px) {
-
     .advantages-div {
         background: url("../images/smartfone.png") 50% 74% no-repeat;
     }
@@ -114,7 +113,6 @@
 }
 
 @media screen and (min-width: 840px) {
-
 
     .form-div {
         width: 70%;
