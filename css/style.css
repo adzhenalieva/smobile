@@ -1,8 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=cyrillic-ext');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&subset=cyrillic');
 
 body {
     color: #000000;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     background: #ffffff;
     line-height: 2;
     font-size: 12px;
@@ -218,11 +218,6 @@ body {
 .video-text {
     text-align: justify;
     margin: 20px 10px 50px 10px;
-}
-
-video {
-    width: 75%;
-    height: 230px;
 }
 
 .order-wrap {
@@ -591,9 +586,6 @@ footer {
 
 .footer .nav-socials .whatsapp a::before {
     margin-top: 0;
-}
-.hide{
-    display: none;
 }
 
 /*modal*/
