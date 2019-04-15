@@ -184,7 +184,6 @@
         padding: 50px 0;
         background-position: 50% 0;
     }
-
 }
 
 @media screen and (min-width: 960px) {
@@ -211,6 +210,9 @@
     .main-nav li,
     .nav-socials li {
         margin-right: 6px;
+    }
+    .form-row .main-button{
+        display: inline;
     }
 
 }
