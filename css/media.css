@@ -11,14 +11,14 @@
 
     .main-wrapper {
         padding: 0 0 150px;
-        background: url("../images/main-pic.png") 50% 75% no-repeat;
+        background: url("../images/main-pic.png") 50% 68% no-repeat;
     }
-    .main-title{
-        padding: 0 0 35px 0;;
+    .main .main-title{
+        padding: 0 0 15px 0;;
     }
     .guarantee-text {
         bottom: 7%;
-        left: 7%;
+        left: 1%;
     }
     .image,
     .big-order {
@@ -113,7 +113,7 @@
         top: 0;
         left: 0;
         background: #feffff;
-        padding-right: 26px;
+        width: 100%;
         z-index: 15;
     }
 
@@ -210,7 +210,8 @@
         margin-right: 6px;
     }
     .form-row .main-button{
-        display: inline;
+        display: inline-block;
+        margin-bottom: 15px;
     }
 
 }
