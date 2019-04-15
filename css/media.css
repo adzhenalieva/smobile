@@ -48,7 +48,8 @@
         height: 200px;
     }
 
-    .video-2-wrap .text {
+    .video-2-wrap .text,
+    .video-2-wrap .main-title{
         width: 45%;
     }
 
