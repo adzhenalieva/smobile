@@ -363,19 +363,6 @@ body {
     margin: 20px auto;
 }
 
-.images {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-}
-
-.images img {
-    width: 30%;
-    height: 150px;
-}
 
 .form-row {
     position: relative;

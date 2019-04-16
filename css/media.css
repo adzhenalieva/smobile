@@ -44,10 +44,6 @@
         text-align: left;
     }
 
-    .images img {
-        height: 200px;
-    }
-
     .video-2-wrap .text,
     .video-2-wrap .main-title{
         width: 45%;
@@ -110,6 +106,19 @@
     }
     .overlay .modal {
         padding: 20px 80px;
+    }
+    .slick-arrow {
+        width: 26px;
+        height: 24px;
+    }
+    .slick-prev {
+        background-position: 0 0;
+        left: 17px;
+        z-index: 100;
+    }
+    .slick-next {
+        background-position: 0 -25px;
+        right: 17px;
     }
 }
 
