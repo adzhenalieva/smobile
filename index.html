@@ -2,11 +2,13 @@
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Smobile</title>
     <link rel="shortcut icon"
           sizes="16x16 24x24 32x32 36x36 48x48 57x57 60x60 64x64 70x70 72x72 76x76 96x96 114x114 120x120 144x144 150x150 152x152 180x180 192x192 310x150 310x310"
           href="./images/favicon.ico">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
 </head>
@@ -57,8 +59,9 @@
             не теряет своих свойств и эстетический вид мобильного телефона или планшета остается на высоте.
             С такой невидимой броней для iPhone, IPad, Samsung, вы застрахованы от любых неприятностей
             и повреждений дисплея.</p>
-        <iframe  class="iframe" src="https://www.youtube.com/embed/ueZycycuyKU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </iframe>
+        <iframe class="iframe" src="https://www.youtube.com/embed/ueZycycuyKU"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
     </div>
 </div>
 <!--video-div end-->
@@ -148,14 +151,38 @@
 <!--big-order-div begin-->
 <div class="container">
     <div class="big-order-wrap">
-        <div class="image">
-            <img src="./images/big-order-image.jpg" alt="order">
-            <div class="images">
-                <img src="./images/plenka-image-1.jpg" alt="first">
-                <img src="./images/plenka-image-2.jpg" alt="second">
-                <img src="./images/plenka-image-3.jpg" alt="third">
+        <div class="image slider-block">
+            <div class="slider-for">
+                <div class="slide">
+                    <img src="images/big-order-image.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plenka-image-1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plenka-image-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plenka-image-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slide">
+                    <img src="images/big-order-image.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plenka-image-1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plenka-image-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plenka-image-3.jpg" alt="">
+                </div>
             </div>
         </div>
+        <!--        <div class="slider-block">-->
+        <!--        </div>-->
         <div class="big-order">
             <h3 class="order-subtitle">
                 Защитная плёнка
@@ -181,11 +208,13 @@
                 <div class="form-row">
                     <label for="input-number" class="input-number-label"> </label>
                     <input type="text" class="input-number" id="input-number" placeholder="+7(____)__-__-__">
-                <a href="#" class='main-button open-modal' data-modal="#modal1">Заказ в 1 клик</a>
+                    <a href="#" class='main-button open-modal' data-modal="#modal1">Заказ в 1 клик</a>
                 </div>
 
             </form>
+
         </div>
+
     </div>
 </div>
 <!--big-order-div end-->
@@ -210,7 +239,9 @@
             </p>
         </div>
         <div class="video-div">
-            <iframe class="iframe" src="https://www.youtube.com/embed/ZDNAElF9Hu8?start=9" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <iframe class="iframe" src="https://www.youtube.com/embed/ZDNAElF9Hu8?start=9"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
         </div>
     </div>
 </div>
@@ -219,12 +250,34 @@
 <!--big-order-div begin-->
 <div class="container">
     <div class="big-order-wrap">
-        <div class="image">
-            <img src="./images/big-order-image-2.jpg" alt="order">
-            <div class="images">
-                <img src="./images/plotter-image-1.jpg" alt="first">
-                <img src="./images/plotter-image-2.jpg" alt="second">
-                <img src="./images/plotter-image-3.jpg" alt="third">
+        <div class="image slider-block">
+            <div class="slider-for">
+                <div class="slide">
+                    <img src="images/big-order-image-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plotter-image-1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plotter-image-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plotter-image-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="slider-nav">
+                <div class="slide">
+                    <img src="images/big-order-image-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plotter-image-1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plotter-image-2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="images/plotter-image-3.jpg" alt="">
+                </div>
             </div>
         </div>
         <div class="big-order">
@@ -252,7 +305,7 @@
                 <div class="form-row">
                     <label for="input-number-2" class="input-number-label"> </label>
                     <input type="text" class="input-number" id="input-number-2" placeholder="+7(____)__-__-__">
-                <a href="#" class='main-button open-modal' data-modal="#modal1">Заказ в 1 клик</a>
+                    <a href="#" class='main-button open-modal' data-modal="#modal1">Заказ в 1 клик</a>
                 </div>
 
             </form>
@@ -288,15 +341,19 @@
     <div class="form-div">
         <form>
             <h3 class="order-subtitle">Для того, что бы оставить заявку на оптовую поставку, заполните форму. </h3>
-            <input class="client-data" type="text" placeholder="Ваше имя">
-            <input class="client-data" type="text" placeholder="Телефон">
+            <label>
+                <input class="client-data" type="text" placeholder="Ваше имя">
+            </label>
+            <label>
+                <input class="client-data" type="text" placeholder="Телефон">
+            </label>
             <label for="dop-info">Дополнительная информация</label>
             <textarea class="dop-info" id="dop-info" cols="30" rows="10"></textarea>
             <a href="#" class='main-button open-modal' data-modal="#modal1">Отправить</a>
             <p><input class="checkbox" type="checkbox" id="permission"><label for="permission">Согласие на обработку
                 персональных данных</label></p>
-            <p id="dostavka"></p>
         </form>
+        <p id="dostavka"></p>
     </div>
 </div>
 <!--form-div end-->
@@ -362,8 +419,12 @@
             <a class='close-modal' data-modal="#modal1" href="#">X</a>
             <form>
                 <h3 class="order-subtitle title">Сделать моментальный заказ</h3>
-                <input class="client-data" type="text" placeholder="Ваше имя">
-                <input class="client-data" type="text" placeholder="Телефон">
+                <label>
+                    <input class="client-data" type="text" placeholder="Ваше имя">
+                </label>
+                <label>
+                    <input class="client-data" type="text" placeholder="Телефон">
+                </label>
 
                 <a href="#" class='main-button open-modal-2' data-modal="#modal2">Отправить</a>
             </form>
@@ -390,9 +451,10 @@
 <!--modal-thanks end-->
 
 
-
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="js/core.js"></script>
 <script src="js/modal.js"></script>
+<script src="js/slick.min.js"></script>
+
 </body>
 </html>
